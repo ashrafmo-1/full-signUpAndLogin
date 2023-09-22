@@ -1,11 +1,11 @@
 # Getting Started with Create React App
 ###
--user signup
+- user signup
 
--user login
+- user login
 
--make new user
+- make new user
 
--Dashboard
+- Dashboard
 
--control users => remove and edit
+- control users => remove and edit
