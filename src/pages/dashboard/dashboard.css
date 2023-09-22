@@ -1,0 +1,120 @@
+:root{
+    --background: #111d13;
+    --color: #439f50;
+    --description: #709775;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NavgationTop{
+    display: flex;
+    width: 100%;
+    padding: 10px 0;
+    background-color: var(--background);
+    box-shadow: 1px 1px 10px 1px var(--background);
+}
+
+.sideBar{
+    padding: 20px;
+    width: 20%;
+    border-right: 1px solid #777;
+    height:calc(100vh - 50px);
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    background-color: var(--background);
+}
+
+.side-links-item {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 0px 10px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    color: #eee
+}
+
+.active{
+    color: black;
+    background-color: #fff;
+    border: 5px solid blue;
+}
+
+.dashboard-Link {
+    color: #000000;
+    background-color: #ff0000;
+    padding: 3px 12px;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.users-content {
+    padding: 20px;
+    width: 80%;
+    background: rgb(34,193,195);
+    background: linear-gradient(66deg, rgba(34,193,195,1) 0%, rgba(133,190,128,1) 49%, rgba(253,187,45,1) 100%);
+}
+
+table, th, td {
+    border: 1px solid #000
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+th {
+    background-color: var(--background);
+    color: #fff;
+    padding: 5px 0;
+}
+
+td {
+    padding: 2px 0;
+    background-color: var(--background);
+    color: #fff;
+}
+
+.remove-user {
+    color: var(--color);
+    font-size: 22px;
+    padding: 4px 4px 0 4px;
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.edit-user {
+    font-size: 22px;
+    background-color: var(--background);
+    padding: 4px;
+    display: inline-grid;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+
+/* edit user form */
+
+.form-edit-user {
+    background: rgb(34,193,195);
+    background: linear-gradient(66deg, rgba(34,193,195,1) 0%, rgba(133,190,128,1) 49%, rgba(253,187,45,1) 100%);
+}
+
+.form-edit-user form{
+    width: 600px;
+}
+
+.form-edit-user form input{
+width: 500px;
+}

@@ -1,0 +1,17 @@
+.home-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #eee;
+    height: calc(100vh - 50px);
+}
+
+.header-text {
+    color: #b80032;
+    margin-bottom: 20px;
+}
+.desc-text{
+    color: #777;
+}

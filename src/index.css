@@ -1,13 +1,91 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', 'Fira Code', monospace, 'Roboto', sans-serif;
+    border: none;
+    outline: none;text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.mainHeader {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(47, 105, 0);
+    padding: 5px 0;
+}
+
+.nav-brand {
+    color: #eeeeee;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+/* navgation */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    background-color: #131e25;
+    width: 100%;
+}
+
+.nav{
+    display: grid;
+    gap: 20px;
+}
+
+/* end navgation */
+
+/* btn */
+
+.login-register_btn{
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 3px 10px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #000;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-register,
+.btn-login {
+    color: red;
+    text-decoration: underline;
+}
+
+.logoutBtn,
+.goingSiteBtn {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 3px 10px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #000;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.logoutBtn:hover,
+.goingSiteBtn:hover,
+.login-register_btn:hover{
+    background: rgba(0, 0, 0, 0.51);
+    border: 1px solid #000;
 }
